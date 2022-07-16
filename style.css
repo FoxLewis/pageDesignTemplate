@@ -21,15 +21,18 @@ nav ul li {
   margin-left: 20px;
 }
 
-nav ul,
-nav a {
+nav ul {
   list-style-type: none;
+}
+
+a {
+  cursor: pointer;
   text-decoration: none;
   color: white;
 }
 
 nav h1 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 nav .container {
@@ -38,4 +41,69 @@ nav .container {
   background-color: #1f2937;
   color: white;
   padding-top: 10px;
+}
+
+header {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  padding-left: 61px;
+  padding-top: 40px;
+  margin-top: -50px;
+  justify-content: space-around;
+}
+
+header .contain-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: -40px;
+}
+
+header .container {
+  background-color: #1f2937;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-direction: column;
+  width: 50%;
+}
+
+header h1 {
+  font-weight: bolder;
+}
+
+header p {
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.543);
+}
+
+button {
+  width: 70px;
+  height: 25px;
+  background: #3882f6;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -95px;
+  cursor: pointer;
+  border: none;
+}
+
+.holder {
+  display: flex;
+  height: 125px;
+  width: 250px;
+  background-color: rgba(128, 128, 128, 0.26);
+  justify-content: center;
+  align-items: center;
 }
