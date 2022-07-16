@@ -106,4 +106,42 @@ header button {
   background-color: rgba(128, 128, 128, 0.26);
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+}
+
+.one .container {
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 35px;
+  justify-content: center;
+}
+
+.one .contain-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.one h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.one .box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
+
+.one p {
+  width: 100px;
+  line-height: normal;
+  text-align: center;
+  font-size: 10px;
+  color: rgba(128, 128, 128, 0.79);
+  margin-top: 5px;
 }
