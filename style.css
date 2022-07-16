@@ -13,3 +13,29 @@ body {
 .container {
   display: flex;
 }
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul,
+nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+nav h1 {
+  font-size: 24px;
+}
+
+nav .container {
+  justify-content: space-around;
+  height: 75px;
+  background-color: #1f2937;
+  color: white;
+  padding-top: 10px;
+}
