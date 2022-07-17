@@ -82,12 +82,13 @@ header p {
 }
 
 button {
-  width: 70px;
+  width: 80px;
   height: 25px;
   background: #3882f6;
   border-radius: 5px;
   color: white;
   font-weight: bold;
+  font-size: 12px;
 }
 
 header button {
@@ -151,7 +152,6 @@ header button {
   font-size: 22px;
   color: #1f2937;
   text-emphasis: light italic;
-  width: 70%;
 }
 
 .two .container {
@@ -166,10 +166,51 @@ header button {
   align-self: flex-end;
 }
 
-footer .container {
+.footer .container {
   padding: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h1 {
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+}
+
+.footer p {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.543);
 }
 
 div .hold {
-  width: 70%;
+}
+
+.blue {
+  display: flex;
+  background-color: #3882f6;
+  height: 90px;
+  width: 85%;
+  padding: 26px;
+  align-items: center;
+  line-height: normal;
+  justify-content: space-around;
+  border-radius: 6px;
+}
+
+.footer button {
+  border: 1px solid white;
+}
+
+.foot-two .container {
+  background: #1f2937;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foot-two h4,
+.foot-two p {
+  color: white;
 }
