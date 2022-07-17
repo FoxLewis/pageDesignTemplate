@@ -68,6 +68,7 @@ header .container {
   padding: 20px;
   flex-direction: column;
   width: 50%;
+  line-height: normal;
 }
 
 header h1 {
@@ -77,7 +78,6 @@ header h1 {
 header p {
   width: 100%;
   margin-bottom: 100px;
-  margin-top: 12px;
   color: rgba(255, 255, 255, 0.543);
 }
 
